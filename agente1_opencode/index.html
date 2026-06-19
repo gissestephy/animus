@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Historia Inmersiva - Aprende historia mediante experiencias interactivas inspiradas en videojuegos históricos.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Historia Inmersiva — Aprende Historia. Vive Leyendas.</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="header__logo">Historia Inmersiva</a>
+      <button class="header__toggle" id="menuToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="header__nav" id="mainNav" aria-label="Navegación principal">
+        <ul class="header__menu">
+          <li><a href="#hero" class="header__link">Inicio</a></li>
+          <li><a href="#caracteristicas" class="header__link">Aprendizaje</a></li>
+          <li><a href="#epocas" class="header__link">Épocas</a></li>
+          <li><a href="#testimonios" class="header__link">Testimonios</a></li>
+          <li><a href="#contacto" class="header__link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__bg"></div>
+      <div class="container hero__content">
+        <h1 class="hero__title">Aprende Historia.<br><span>Vive Leyendas.</span></h1>
+        <p class="hero__subtitle">¿Quién dijo que la historia era aburrida? <br> Explora las civilizaciones más fascinantes del mundo mediante experiencias educativas inspiradas en videojuegos históricos.</p>
+        <div class="hero__actions">
+          <a href="#epocas" class="btn btn--primary">Explorar Épocas</a>
+          <a href="#sobre" class="btn btn--outline">Descubrir Más</a>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Desliza</span>
+        <svg width="20" height="30" viewBox="0 0 20 30"><path d="M10 0v20M4 14l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container">
+        <h2 class="section__title">Sobre Nosotros</h2>
+        <p class="section__subtitle">Transformamos la educación histórica a través de la inmersión digital.</p>
+        <div class="about__grid">
+          <article class="about__card">
+            <div class="about__icon">&#x1F3AC;</div>
+            <h3>Qué es Historia Inmersiva</h3>
+            <p>Una plataforma educativa que combina narrativa interactiva, tecnología moderna y rigor histórico para ofrecer experiencias de aprendizaje únicas.</p>
+          </article>
+          <article class="about__card">
+            <div class="about__icon">&#x2699;&#xFE0F;</div>
+            <h3>Cómo Funciona</h3>
+            <p>Sumérgete en recreaciones digitales de civilizaciones antiguas y participa en los eventos que marcaron el rumbo de la humanidad.</p>
+          </article>
+          <article class="about__card">
+            <div class="about__icon">&#x1F393;</div>
+            <h3>Beneficios Educativos</h3>
+            <p>Nuestro método basado en gamificación e inmersión mejora la retención del conocimiento en un 70 % frente a métodos tradicionales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="caracteristicas">
+      <div class="container">
+        <h2 class="section__title">Características</h2>
+        <p class="section__subtitle">Todo lo que necesitas para viajar en el tiempo desde tu pantalla.</p>
+        <div class="features__grid">
+          <div class="feature">
+            <div class="feature__icon"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 24l8 8 16-16" stroke="currentColor" stroke-width="2" fill="none"/></svg></div>
+            <h3 class="feature__title">Línea Temporal Interactiva</h3>
+            <p class="feature__desc">Navega por los hitos más importantes de la humanidad con una línea de tiempo dinámica.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon"><svg viewBox="0 0 48 48"><path d="M4 28h40v14H4zM4 6h40v14H4z" stroke="currentColor" stroke-width="2" fill="none"/><path d="M4 20h40v8H4z" stroke="currentColor" stroke-width="2" fill="none"/></svg></div>
+            <h3 class="feature__title">Mapas Históricos</h3>
+            <p class="feature__desc">Explora territorios ancestrales con mapas detallados y la evolución de fronteras.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon"><svg viewBox="0 0 48 48"><circle cx="24" cy="16" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 40c0-8 6-14 12-14s12 6 12 14" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            <h3 class="feature__title">Personajes Reales</h3>
+            <p class="feature__desc">Conoce a las figuras que cambiaron el mundo a través de biografías interactivas.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon"><svg viewBox="0 0 48 48"><path d="M8 8h32v32H8z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8l16 16M8 40l16-16M40 40L24 24" stroke="currentColor" stroke-width="2" fill="none"/></svg></div>
+            <h3 class="feature__title">Arquitectura Histórica</h3>
+            <p class="feature__desc">Admira reconstrucciones de monumentos emblemáticos y sus secretos constructivos.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon"><svg viewBox="0 0 48 48"><path d="M24 4L8 44h32z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 20v8M24 32v2" stroke="currentColor" stroke-width="2"/></svg></div>
+            <h3 class="feature__title">Cultura y Sociedad</h3>
+            <p class="feature__desc">Comprende las costumbres, el arte y la vida cotidiana de cada civilización.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon"><svg viewBox="0 0 48 48"><path d="M4 12h40v28H4z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 12V8h24v4M20 28l4 4 8-8" stroke="currentColor" stroke-width="2" fill="none"/></svg></div>
+            <h3 class="feature__title">Conflictos y Guerras</h3>
+            <p class="feature__desc">Analiza las batallas y conflictos que definieron épocas enteras.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section epocas" id="epocas">
+      <div class="container">
+        <h2 class="section__title">Épocas Históricas</h2>
+        <p class="section__subtitle">Elige tu destino y comienza la aventura.</p>
+        <div class="epocas__grid">
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #d4a24e, #7a5c2e, #3a2a10);">
+            <div class="epoca__img" style="background-image: url('../img/tierrasanta.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Tierra Santa</h3>
+              <p class="epoca__desc">Recorre las tierras sagradas y descubre la historia de los lugares más importantes para tres grandes religiones.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #d4a24e, #7a5c2e, #3a2a10);">
+            <div class="epoca__img" style="background-image: url('../img/egipto.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Antiguo Egipto</h3>
+              <p class="epoca__desc">Camina entre pirámides, desvela los misterios de los faraones y descubre una civilización que desafió el tiempo.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #c4d4e8, #7a9cc6, #3a5a7a);">
+            <div class="epoca__img" style="background-image: url('../img/grecia.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Antigua Grecia</h3>
+              <p class="epoca__desc">Recorre el ágora, debate con filósofos y asiste al nacimiento de la democracia entre templos y leyendas.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #e8c4a0, #c48a4e, #6a3a1a);">
+            <div class="epoca__img" style="background-image: url('../img/renacimiento.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Renacimiento Italiano</h3>
+              <p class="epoca__desc">Sumérgete en el esplendor de Florencia, donde el arte, la ciencia y las conspiraciones redefinieron el mundo.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #e8d4c4, #b48a6a, #6a4a3a);">
+            <div class="epoca__img" style="background-image: url('../img/constantinopla.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Constantinopla</h3>
+              <p class="epoca__desc">Descubre la gloria de la ciudad que sostuvo el Imperio Bizantino durante siglos de historia.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #e8d4c4, #b48a6a, #6a4a3a);">
+            <div class="epoca__img" style="background-image: url('../img/eeuucolonial.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">USA Colonial</h3>
+              <p class="epoca__desc">Sumérgete en la historia de las colonias americanas, donde se forjó la identidad de una nación en medio de desafíos y oportunidades.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #e8d4c4, #b48a6a, #6a4a3a);">
+            <div class="epoca__img" style="background-image: url('../img/revfrancesa.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Revolución Francesa</h3>
+              <p class="epoca__desc">Vive el estallido de un pueblo que cambió la historia para siempre entre ideales, pasión y revolución.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #4a6a8a, #2a4a6a, #1a2a3a);">
+            <div class="epoca__img" style="background-image: url('../img/vikingo.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Era Vikinga</h3>
+              <p class="epoca__desc">Surca los mares del norte, descubre nuevas tierras y honra el legado de los guerreros que marcaron una era.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #4a6a8a, #2a4a6a, #1a2a3a);">
+            <div class="epoca__img" style="background-image: url('../img/revindustrial.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Londres Victoriano</h3>
+              <p class="epoca__desc">Explora la Revolución Industrial entre fábricas, trenes de vapor y las luchas sociales que transformaron Inglaterra.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+          <article class="epoca" style="--epoca-gradient: linear-gradient(135deg, #4a6a8a, #2a4a6a, #1a2a3a);">
+            <div class="epoca__img" style="background-image: url('../img/samurai.jpg');"></div>
+            <div class="epoca__body">
+              <h3 class="epoca__title">Japón Feudal</h3>
+              <p class="epoca__desc">Domina las artes del sigilo junto a shinobis y samuráis en una época de guerras, honor y conspiraciones.</p>
+              <a href="#" class="btn btn--primary btn--sm">Explorar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonios" id="testimonios">
+      <div class="container">
+        <h2 class="section__title">Testimonios</h2>
+        <p class="section__subtitle">Lo que dicen nuestros exploradores.</p>
+        <div class="testimonios__grid">
+          <blockquote class="testimonio">
+            <div class="testimonio__avatar" style="background: linear-gradient(135deg, #c9a84c, #8b6a2a);">M</div>
+            <div class="testimonio__body">
+              <p class="testimonio__text">"Nunca pensé que aprender historia pudiera ser tan adictivo. Las recreaciones del Renacimiento son tan detalladas que sientes que realmente estás ahí."</p>
+              <footer><cite class="testimonio__author">María González</cite><span class="testimonio__role">Docente de Historia</span></footer>
+            </div>
+          </blockquote>
+          <blockquote class="testimonio">
+            <div class="testimonio__avatar" style="background: linear-gradient(135deg, #8b1a1a, #4a0a0a);">C</div>
+            <div class="testimonio__body">
+              <p class="testimonio__text">"Mis estudiantes pasaron de odiar la historia a debatir sobre la Revolución Francesa en clase. El cambio ha sido increíble."</p>
+              <footer><cite class="testimonio__author">Carlos Mendoza</cite><span class="testimonio__role">Profesor de Secundaria</span></footer>
+            </div>
+          </blockquote>
+          <blockquote class="testimonio">
+            <div class="testimonio__avatar" style="background: linear-gradient(135deg, #2a6a4a, #1a3a2a);">B</div>
+            <div class="testimonio__body">
+              <p class="testimonio__text">"Siempre me costo y tuve dificultades para aprender historia, era la materia más dificil del colegio pero gracias a este videojuego me he sumergido en la historia y aprendí muchisimas cosas, se siente como un viaje al pasado."</p>
+              <footer><cite class="testimonio__author">Barbara Fernández</cite><span class="testimonio__role">Alumna de la Secundaria</span></footer>
+            </div>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contacto" id="contacto">
+      <div class="container">
+        <h2 class="section__title">Contacto</h2>
+        <p class="section__subtitle">¿Listo para comenzar tu viaje? Escríbenos y te guiaremos.</p>
+        <form class="contacto__form" id="contactForm" novalidate>
+          <div class="contacto__field">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+          <div class="contacto__field">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+          </div>
+          <div class="contacto__field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos sobre tu interés en la historia..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <h3 class="footer__logo">Historia Inmersiva</h3>
+        <p class="footer__desc">Transformando la educación histórica a través de la tecnología y la narrativa interactiva.</p>
+      </div>
+      <div class="footer__nav">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#caracteristicas">Aprendizaje</a></li>
+          <li><a href="#epocas">Épocas</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__social">
+        <h4>Síguenos</h4>
+        <div class="footer__social-links">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="7" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.5 6.2a2.8 2.8 0 0 0-2-2C18.9 3.5 12 3.5 12 3.5s-6.9 0-8.5.7a2.8 2.8 0 0 0-2 2A30 30 0 0 0 1 12a30 30 0 0 0 .5 5.8 2.8 2.8 0 0 0 2 2c1.6.7 8.5.7 8.5.7s6.9 0 8.5-.7a2.8 2.8 0 0 0 2-2A30 30 0 0 0 23 12a30 30 0 0 0-.5-5.8zM9.5 15.5V8.5l6 3.5z" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Historia Inmersiva. Todos los derechos reservados. Proyecto educativo ficticio.</p>
+    </div>
+  </footer>
+
+  <a href="../" class="back-link" aria-label="Volver al hub principal">
+    <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

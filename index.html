@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Historia Inmersiva - Landing Page Educativa. Comparativa de generación por IA: Codex vs Cursor.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Historia Inmersiva — Proyecto Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="top-bar__container">
+        <span class="top-bar__course">
+            IFTS N.° 29 — Desarrollo de Sistemas Web (Front End)
+        </span>
+
+        <span class="top-bar__year">
+            2026
+        </span>
+    </div>
+  </div>
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="hero__badge">Proyecto Académico</p>
+        <h1 class="hero__title">
+          <span class="hero__title-line">Historia Inmersiva</span>
+          <span class="hero__title-sub">Landing Page Educativa</span>
+        </h1>
+        <p class="hero__subtitle">Un mismo prompt, dos inteligencias artificiales, dos interpretaciones. Explora cómo
+          Codex y Cursor transformaron un briefing técnico en experiencias visuales únicas para una plataforma de
+          enseñanza histórica.</p>
+        <div class="hero__stats">
+          <div class="hero__stat"><span class="hero__stat-number">1</span><span class="hero__stat-label">Prompt</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat"><span class="hero__stat-number">2</span><span class="hero__stat-label">Landings</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat"><span class="hero__stat-number">∞</span><span
+              class="hero__stat-label">Posibilidades</span></div>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Explorar</span>
+        <svg width="20" height="30" viewBox="0 0 20 30">
+          <path d="M10 0v20M4 14l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" />
+        </svg>
+      </div>
+    </section>
+    <section class="showcase" id="showcase">
+      <div class="container">
+        <h2 class="section__title">Explora las Versiones</h2>
+        <p class="section__subtitle">Cada inteligencia artificial aportó su propia visión. Compáralas y descubre sus
+          diferencias.</p>
+        <div class="showcase__grid">
+          <a href="prompt/" class="showcase__card showcase__card--prompt">
+            <div class="showcase__card-bg"></div>
+            <div class="showcase__card-content">
+              <div class="showcase__icon"><svg viewBox="0 0 48 48">
+                  <path d="M8 6h32v28H20l-8 8V34H8V6z" fill="none" stroke="currentColor" stroke-width="2" />
+                  <path d="M18 18h12M18 24h8" stroke="currentColor" stroke-width="2" />
+                </svg></div>
+              <h3 class="showcase__card-title">Ver Prompt Utilizado</h3>
+              <p class="showcase__card-desc">El briefing original con todos los requisitos, la paleta, la estructura y
+                las instrucciones que recibieron ambas inteligencias artificiales.</p>
+              <span class="showcase__card-btn">Leer Prompt</span>
+            </div>
+          </a>
+          <a href="agente1_opencode/" class="showcase__card showcase__card--codex">
+            <div class="showcase__card-bg"></div>
+            <div class="showcase__card-content">
+              <div class="showcase__icon"><svg viewBox="0 0 48 48">
+                  <circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="2" />
+                  <path d="M24 6v36M6 24h36" stroke="currentColor" stroke-width="2" opacity="0.4" />
+                  <circle cx="24" cy="24" r="6" fill="none" stroke="currentColor" stroke-width="2" />
+                </svg></div>
+              <h3 class="showcase__card-title">Ver Landing OpenCode</h3>
+              <p class="showcase__card-desc"> Diseño de estilo cinematográfico realizado con OpenCode DeepSeek V4 Flash Free, inspirado en aventuras históricas.
+                Combina una estética oscura, elementos épicos y una experiencia inmersiva orientada a captar la atención
+                del visitante.</p>
+              <span class="showcase__card-btn">Explorar</span>
+            </div>
+          </a>
+          <a href="agente2_cursor/" class="showcase__card showcase__card--codex">
+            <div class="showcase__card-bg"></div>
+            <div class="showcase__card-content">
+              <div class="showcase__icon">
+                <svg viewBox="0 0 48 48">
+                  <circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="2" />
+                  <path d="M24 6v36M6 24h36" stroke="currentColor" stroke-width="2" opacity="0.4" />
+                  <circle cx="24" cy="24" r="6" fill="none" stroke="currentColor" stroke-width="2" />
+                </svg>
+              </div>
+              <h3 class="showcase__card-title">Ver Landing Cursor</h3>
+              <p class="showcase__card-desc">
+                Diseño realizado con Cursor AI Composer 2.5 Fast. Presenta un enfoque centrado en la claridad visual y la navegación intuitiva.
+                Prioriza la organización del contenido, la accesibilidad y una experiencia
+                moderna optimizada para distintos dispositivos.
+              </p>
+              <span class="showcase__card-btn">Explorar</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="specs" id="specs">
+      <div class="container">
+        <div class="specs__grid">
+          <div class="specs__item">
+            <h4>Prompt</h4>
+            <p>Único para ambas generaciones</p>
+          </div>
+          <div class="specs__item">
+            <h4>Tema</h4>
+            <p>Assassin's Creed educativo</p>
+          </div>
+          <div class="specs__item">
+            <h4>Paleta</h4>
+            <p>Negro, dorado, rojo / Azul, plata</p>
+          </div>
+          <div class="specs__item">
+            <h4>Stack</h4>
+            <p>HTML + CSS + JS vanilla</p>
+          </div>
+          <div class="specs__item">
+            <h4>Responsive</h4>
+            <p>Móvil, tablet, desktop</p>
+          </div>
+          <div class="specs__item">
+            <h4>Zero dependencias</h4>
+            <p>Sin frameworks ni librerías</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comparison">
+      <div class="container">
+        <h2>Comparativa de Agentes de IA</h2>
+        <p class="comparison-subtitle">
+          Análisis de los resultados obtenidos utilizando el mismo prompt en dos agentes distintos.
+        </p>
+
+        <div class="comparison-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Criterio</th>
+                <th>OpenCode</th>
+                <th>Cursor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Enfoque General</td>
+                <td>Experiencia visual inmersiva y narrativa.</td>
+                <td>Diseño funcional centrado en la experiencia de usuario.</td>
+              </tr>
+
+              <tr>
+                <td>Diseño Visual</td>
+                <td>Estética cinematográfica inspirada en aventuras históricas.</td>
+                <td>Interfaz moderna con énfasis en claridad y organización.</td>
+              </tr>
+
+              <tr>
+                <td>Estructura</td>
+                <td>Mayor protagonismo de elementos visuales.</td>
+                <td>Distribución equilibrada entre contenido y diseño.</td>
+              </tr>
+
+              <tr>
+                <td>Navegación</td>
+                <td>Orientada a la exploración del contenido.</td>
+                <td>Orientada a la accesibilidad y rapidez de uso.</td>
+              </tr>
+
+              <tr>
+                <td>Punto Fuerte</td>
+                <td>Impacto visual y ambientación temática.</td>
+                <td>Usabilidad y organización de la información.</td>
+              </tr>
+
+              <tr>
+                <td>Resultado Final</td>
+                <td>Landing Page inmersiva con enfoque narrativo.</td>
+                <td>Landing Page moderna con enfoque funcional.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <h3 class="footer__logo">Historia Inmersiva</h3>
+        <p class="footer__desc">Proyecto académico de generación de landing pages educativas mediante inteligencia
+          artificial. Una comparativa entre Codex y Cursor partiendo de un mismo prompt.</p>
+      </div>
+      <div class="footer__nav">
+        <h4>Versiones</h4>
+        <ul>
+          <li><a href="prompt/">Prompt</a></li>
+          <li><a href="./agente1_opencode/">OpenCode</a></li>
+          <li><a href="./agente2_cursor/">Cursor</a></li>
+        </ul>
+      </div>
+      <div class="footer__social">
+        <h4>Repositorio</h4>
+        <div class="footer__social-links">
+          <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02.8-.22 1.65-.33 2.5-.33s1.7.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"
+                fill="currentColor" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Historia Inmersiva. Proyecto educativo ficticio — Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
