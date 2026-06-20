@@ -186,7 +186,7 @@ Las siguientes capturas muestran el resultado obtenido mediante los distintos ag
 
 📱 Vista Celular
 
-![Portada](img/s20)
+![Portada](img/s20.png)
 
 🎬 Video Interactivo
 
