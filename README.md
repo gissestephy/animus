@@ -178,23 +178,55 @@ Las siguientes capturas muestran el resultado obtenido mediante los distintos ag
 
 💻 Vista Escritorio
 
-![Sitio 1](./capturas/sitio1.png)
+![Portada](../img/portada.png)
 
 📱 Vista Tablet
 
-![Sitio 1](./capturas/sitio1.png)
+![Portada](../img/tablet.png)
 
 📱 Vista Celular
 
-![Sitio 1](./capturas/sitio1.png)
+![Portada](../img/s20)
+
+Video Interactivo
+
+![Portada](../video/portada.gif)
 
 ### 🏛️🥷 Sitio Web Diseñado con OpenCode
 
-![Sitio 2](./capturas/sitio2.png)
+💻 Vista Escritorio
+
+![Sitio 1](../img/opencodepc.png)
+
+📱 Vista Tablet
+
+![Sitio 1](../img/opencodetablet.png)
+
+📱 Vista Celular
+
+![Sitio 1](../img/opencodecel.png)
+
+Video Interactivo
+
+![Sitio 1](../video/opencode.gif)
 
 ### 🏛️ Sitio Web Diseñado con Cursor
 
-![Sitio 3](./capturas/sitio3.png)
+💻 Vista Escritorio
+
+![Sitio 2](../img/cursor.png)
+
+📱 Vista Tablet
+
+![Sitio 2](../img/cursortablet.png)
+
+📱 Vista Celular
+
+![Sitio 2](../img/cursormovil.png)
+
+Video Interactivo
+
+![Sitio 2](../video/cursor.gif)
 
 ---
 
