@@ -188,7 +188,7 @@ Las siguientes capturas muestran el resultado obtenido mediante los distintos ag
 
 ![Portada](img/s20)
 
-Video Interactivo
+🎬 Video Interactivo
 
 ![Portada](video/portada.gif)
 
@@ -206,7 +206,7 @@ Video Interactivo
 
 ![Sitio 1](img/opencodecel.png)
 
-Video Interactivo
+🎬 Video Interactivo
 
 ![Sitio 1](video/opencode.gif)
 
@@ -224,7 +224,7 @@ Video Interactivo
 
 ![Sitio 2](img/cursormovil.png)
 
-Video Interactivo
+🎬 Video Interactivo
 
 ![Sitio 2](video/cursor.gif)
 
