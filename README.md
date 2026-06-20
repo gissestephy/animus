@@ -178,55 +178,55 @@ Las siguientes capturas muestran el resultado obtenido mediante los distintos ag
 
 💻 Vista Escritorio
 
-![Portada](../img/portada.png)
+![Portada](img/portada.png)
 
 📱 Vista Tablet
 
-![Portada](../img/tablet.png)
+![Portada](img/tablet.png)
 
 📱 Vista Celular
 
-![Portada](../img/s20)
+![Portada](img/s20)
 
 Video Interactivo
 
-![Portada](../video/portada.gif)
+![Portada](video/portada.gif)
 
 ### 🏛️🥷 Sitio Web Diseñado con OpenCode
 
 💻 Vista Escritorio
 
-![Sitio 1](../img/opencodepc.png)
+![Sitio 1](img/opencodepc.png)
 
 📱 Vista Tablet
 
-![Sitio 1](../img/opencodetablet.png)
+![Sitio 1](img/opencodetablet.png)
 
 📱 Vista Celular
 
-![Sitio 1](../img/opencodecel.png)
+![Sitio 1](img/opencodecel.png)
 
 Video Interactivo
 
-![Sitio 1](../video/opencode.gif)
+![Sitio 1](video/opencode.gif)
 
 ### 🏛️ Sitio Web Diseñado con Cursor
 
 💻 Vista Escritorio
 
-![Sitio 2](../img/cursor.png)
+![Sitio 2](img/cursor.png)
 
 📱 Vista Tablet
 
-![Sitio 2](../img/cursortablet.png)
+![Sitio 2](img/cursortablet.png)
 
 📱 Vista Celular
 
-![Sitio 2](../img/cursormovil.png)
+![Sitio 2](img/cursormovil.png)
 
 Video Interactivo
 
-![Sitio 2](../video/cursor.gif)
+![Sitio 2](video/cursor.gif)
 
 ---
 
