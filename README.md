@@ -46,7 +46,7 @@ Acceso al proyecto desplegado en Vercel:
 
 En el siguiente link podrás acceder al proyecto donde vislumbraran las tres experiencias desarrolladas para el trabajo práctico.
 
-🔗 [Animus History](https://animus-history.vercel.app/)
+🔗 [visitAnimus.vercel.com](https://animus-history.vercel.app/)
 
 ---
 ## Agentes IA utilizados
